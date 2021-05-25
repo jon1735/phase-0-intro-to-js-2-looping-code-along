@@ -7,3 +7,8 @@ function writeCards(names, event){
     return messages 
 }
 
+const countDown = (num) => {
+  for (let down = num; down >= 0; down--) {
+    console.log(down);
+  } 
+}
